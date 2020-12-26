@@ -1,0 +1,94 @@
+body {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+p.body {
+    font-size: 30px;
+}
+p.headerTitle {
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+div.header {
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 20px;
+}
+div.mainGrid {
+    display: grid;
+    grid-template-columns: 20% 15% 50% 10%;
+    grid-template-rows: auto auto auto auto;
+    width: 100%;
+    padding-top: 10px;
+}
+div.menu {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+div.content {
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+a.menuLink {
+    text-decoration: none;
+    color: black;
+}
+img.imageProperties {
+    width: 100px;
+}
+div.menuContent {
+    padding-left: 20px;
+}
+p.parText {
+    font-size: 20px;
+}
+div.nextCh {
+    border: 1px solid transparent;
+    background-color: green;
+    width: 10%;
+    float: right;
+    text-align: center;
+    border-radius: 15px;
+}
+div.preCh {
+    border: 1px solid transparent;
+    background-color: green;
+    width: 10%;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+}
+a.nLink {
+    color: white;
+    text-decoration: none;
+    grid-column: 3 / 4;
+    grid-row: 4 / 4;
+    padding-top: 10px;
+}
+table {
+    width: 100%;
+}
+td, th {
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #E6E6E6;
+}
+td {
+    background-color: #F2F2F2;
+}
