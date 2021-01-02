@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"python.pythonPath": "C:\\Users\\Chris\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+	}
 }
